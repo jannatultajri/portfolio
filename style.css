@@ -1,0 +1,202 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+
+   background-color:skyblue;
+   padding: 25px 0;
+   text-align: center;
+   position:sticky;
+   top: 0;
+   left: 0;
+   box-shadow: 5px 5px 10px rgb(186, 219, 233);
+}
+header a{
+    color: white;
+    font-size: 25px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+header a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+   .self{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#f6f7f8;
+    
+    padding: 100px 0;
+   }
+   
+   
+   .self-content button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(66, 179, 236);
+    color: white;
+
+   }
+   .self-content button:hover{
+    background-color: red;
+
+   }
+   .self img{
+    height: 200px;
+    weight:auto;
+    border-radius: 50%;
+    border: 3px solid skyblue;
+   }
+   .self-content{
+    margin-left: 5rem;
+
+   }
+.self-content h3{
+ font-size: 1.7rem;
+    font-weight: 700;
+   }
+   .self-content h3:nth-of-type(2){
+    margin-bottom: 2rem;
+   }
+   .self-content h1{
+    font-size: 2rem;
+    font-weight: 700;
+    
+   }
+   span{
+    color: rgb(58, 176, 223);
+   }
+   .self-content p{
+    font-size: 20px;
+   }
+   
+   
+   
+   /*about section*/
+
+  .About{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 10%;
+margin-right: 50%;
+padding: 200px 0;
+  } 
+  .heading{
+    font-size: 3rem;
+    text-align: left;
+    color: skyblue;
+    text-decoration: underline;
+   
+  }
+  .About-content{
+    padding: 0 4rem;
+  }
+  .About-content h2{
+   text-align: left;
+    color: skyblue;
+    text-decoration: underline;
+    line-height: 1.2;
+  }
+
+  .About-content h3{
+    font-size: 5rem;
+   
+  }
+.About-content p{
+    font-size: 1000px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 200px;
+    margin: 2rem 0 3rem;
+}
+  .education{
+    background-color:#f6f7f8;
+    padding: 100px 0;
+    text-align: center;
+    
+
+  }
+  .education > h2{
+    font-size: 35px;
+    color: skyblue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+
+  }
+  .bsc{
+    background-color: white;
+    width: 999px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+       
+  }
+  .bsc h3,h2{
+    margin-bottom: 10px;
+  }
+  .education .bsc{
+   border-left:  8px solid skyblue;
+   margin-bottom: 30px;
+  }
+  .Contact{
+    background-color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .Contact>h2{
+    font-size: 35px;
+    color: skyblue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+  .Contact form{
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Contact form div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+
+  }
+  .Contact form label{
+    color:black;
+    width: 20%;
+    font-size: 20px
+  }
+  .Contact form input,textarea{
+    padding: 8px 10px; 
+width: 80%;
+border-radius: 5px;
+font-size: 18px;
+border: 1px solid #3e3939;
+  }
+  textarea{
+    height: 200px;
+  }
+  footer{
+    padding:20px 0 ;
+    text-align: center;
+    background-color: rgb(71, 71, 245);
+    color: white;
+    font-size: 20px;
+
+  }
+
